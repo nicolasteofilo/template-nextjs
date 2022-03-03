@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render correct 1`] = `
+<main>
+  <h1>
+    Nextjs na Prática
+  </h1>
+</main>
+`;
