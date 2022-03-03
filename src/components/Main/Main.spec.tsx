@@ -6,7 +6,9 @@ describe('<Main />', () => {
     render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /nextjs na prática/i })
+      screen.getByRole('heading', {
+        name: /Typescript, ReactJS, NextJS and Styled Components Template/i
+      })
     ).toBeInTheDocument()
   }),
     it('should render correct', () => {
@@ -14,4 +16,11 @@ describe('<Main />', () => {
 
       expect(container.firstChild).toMatchSnapshot()
     })
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({
+      'background-color': '#06092b'
+    })
+  })
 })

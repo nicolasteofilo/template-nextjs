@@ -1,9 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correct 1`] = `
-<main>
-  <h1>
-    Nextjs na Prática
-  </h1>
+<main
+  class="styles__Wrapper-sc-k1cbmt-0 iCfEsM"
+>
+  <img
+    alt="Logo do frameword nextjs e escrito NextJs na Prática ao lado"
+    class="styles__Logo-sc-k1cbmt-1 cODjgh"
+    src="/img/nextjs.png"
+  />
+  <h2
+    class="styles__Description-sc-k1cbmt-3 fzeFgy"
+  >
+    Typescript, ReactJS, NextJS and Styled Components 
+    <span>
+      Template
+    </span>
+  </h2>
+  <p
+    class="styles__Disclaimer-sc-k1cbmt-4 iotmSY"
+  >
+    Edit 
+    <code>
+      src/components/Main/index.tsx
+    </code>
+     and save to update.
+  </p>
 </main>
 `;
