@@ -17,13 +17,15 @@
     ]
   },
   "dependencies": {
-    "git-commit-msg-linter": "^4.1.1",
     "next": "12.1.0",
+    "next-pwa": "^5.4.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "webpack": "4"
   },
   "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1",
     "@babel/preset-typescript": "^7.16.7",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",

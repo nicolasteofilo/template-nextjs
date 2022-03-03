@@ -9,6 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Next.js Template</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092b" />
         <meta
           name="description"
           content="Next.js template with typescript, jest, styled-components"
