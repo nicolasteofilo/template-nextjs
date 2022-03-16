@@ -59,9 +59,9 @@ exports[`<Main /> should render correct 1`] = `
   <h2
     class="c2"
   >
-    Typescript, ReactJS, NextJS and Styled Components 
+    Typescript, ReactJS, NextJS and Styled Components
     <span>
-      Template
+       Template
     </span>
   </h2>
   <p
